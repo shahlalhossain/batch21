@@ -33,8 +33,6 @@
         
         <?php
 
-        A-z
-        __
         $greetings = "Hello Banglasesh!";
         echo $greetings;
         echo "<br>";
