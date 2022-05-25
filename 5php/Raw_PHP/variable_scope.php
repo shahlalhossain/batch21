@@ -28,22 +28,26 @@
             <?php
 
             $number1 = "555555555"; // global scope
+
+            myTest1($number1);
+
             function myTest1($number1) {
                 // using $number1 inside this function will generate an error
                 echo "<p>Variable number1 inside function is: $number1</p>";
             }
-            myTest1($number1);
+            
             echo "<p>Variable number1 outside function is: $number1</p>";
 
 
             function myTest2() {
-                $x = 5000; // local scope
-                echo "Variable x inside function is: ".$x;
+                $number2 = 5000; // local scope
+                echo "Variable number2 inside function is: ".$number2;
             }
 
             myTest2();
-            // using x outside the function will generate an error
-            echo "<p>Variable x outside function is: $x</p>";
+            // using number2 outside the function will generate an error
+            $number2 = '465456465';
+            echo "<p>Variable x outside function is: $number2</p>";
 
             ?>
         </div>

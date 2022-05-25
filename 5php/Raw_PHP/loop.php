@@ -14,12 +14,13 @@
     <body class="text-center">
         <?php
 
-        for ($x = 0; $x <= 100; $x++) {
-            echo "The number is: $x <br>";
-        }
+        // for ($x = 1; $x <= 100; $x++) {
+        //     echo "The number is: $x <br>";
+        // }
         
         
-        $colors = array("red", "green", "blue", "yellow");
+        // $colors = array("red", "green", "blue", "yellow", "white", "black");
+        $colors = ["red", "green", "blue", "yellow", "white", "black"];
         foreach ($colors as $value) {
             
             echo ucwords($value);
