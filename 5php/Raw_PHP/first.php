@@ -13,7 +13,7 @@
 
         <!-- এক্সটারনাল স্টাইলশিটকে লিঙ্ক করার জন্য <link> এলিমেন্ট ব্যবহার করা হয়। -->
         <!-- CSS Library -->
-        <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- Example Only -->
+        <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link type="text/css" rel="stylesheet" href="w3.css"> <!-- Example Only -->
        
         <!-- Custom CSS -->
@@ -46,10 +46,11 @@
 
         <div class="container" style="border: 1px solid green">
 
-                <?php 
+            <?php
+
                 echo "Hello Participants, Welcome to Set Training Programme";
                 echo "<br>";
-                echo ("Hello Participants, Welcome to Set Training Programme");
+                echo ('Hello Participants, Welcome to Set Training Programme');
                 echo "<br>";
                 echo ("Hello Participants, Welcome to Set Training Programme");
                 echo "<br>";
@@ -65,10 +66,12 @@
                 lines
                 */
 
-                include 'data_type.php';
-                echo greetings;
-                var_dump($countries[9]);
-                ?>
+                // include 'data_type.php';
+                // echo greetings;
+                // var_dump($countries[9]);
+
+
+            ?>
 
         </div>
 

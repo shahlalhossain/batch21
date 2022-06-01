@@ -53,14 +53,14 @@
 
 
 
-            $number1 = 500;
-            $number2 = 500;
+            // $number1 = 500;
+            // $number2 = 500;
             
-            if ($number1 === $number2) {
-                echo "Do Somthing";
-            } else {
-                echo "Do Nothing";
-            }
+            // if ($number1 === $number2) {
+            //     echo "Equal and Identical";
+            // } else {
+            //     echo "NOT Equal OR Identical";
+            // }
 
             // $m = "500";
             // $n = 500;
@@ -90,8 +90,7 @@
             // }
 
 
-            $a = 5555;
-            $b = 6666;
+            
 
             // if (!$a) {
             //     echo "TRUE";
@@ -99,17 +98,22 @@
             //     echo "FALSE";
             // }
 
+            // $a = 5555;
+            $b = 6666;
 
-            // $x = isset($a) ? $a : $b;
+            // $x = isset($a) ? "Good Morning" : "Good Evening";
             // echo $x;
-
+            // echo "<br>";
+            $x = isset($a) ? $a : $b;
+            echo $x;
+            
             // if ($a == 5) {
 
-            //     if ($b == 25) {
-                    
-            //     } else {
+                //     if ($b == 25) {
+                        
+                //     } else {
 
-            //     }
+                //     }
 
             // } elseif ($a == 10) {
 
@@ -135,6 +139,11 @@
             // }
 
 
+            $A = [1,2,3,"4",5,6,7,8,9];
+            $B = [1,2,3,4,5,6,7,8,9];
+            $C = $A + $B;
+
+            $C = [1,2,3,4,5,6,7,8,9];
             ?>
         </div>
 

@@ -31,43 +31,46 @@
 
         <div class="container" style="border: 1px solid green">
         
-        <?php
+            <?php
 
-        $greetings = "Hello Banglasesh!";
-        echo $greetings;
-        echo "<br>";
+                $name = 'Sabina Khan';
+                $greetings = "Hello " . $name;
+                echo ($greetings);
+                echo "<br>";
 
-        $txt1 = "Hello world!";
-        echo "I love " . $txt1;
-        echo "<br>";
-        
-        $txt2 = " Bangladesh.";
-        echo "I love " . $txt1 . $txt2;
-        echo "<br>";
+                $txt1 = "Traveling";
+                echo "I love " . $txt1;
+                echo "<br>";
+                
+                $txt2 = " Reading.";
+                echo "I love " . $txt1 . ' and' . $txt2;
+                echo "<br>";
 
-        $x = 5;
-        $y = 10.50;
+                $number1 = 500;
+                $number2 = 50.25;
 
-        $sum = $x + $y;
-        echo "Sum of Two given Numbers is: " . $sum;
-        echo "<br>";
+                $sum = $number1 + $number2;
+                echo "Sum of Two given Numbers is: " . $sum;
+                echo "<br>";
 
-        $sub = $y - $x;
-        echo "Sub of Two given Numbers is: ".$sub;
-        echo "<br>";
+                $sub = $number1 - $number2;
+                echo "Subtract of Two given Numbers is: ".$sub;
+                echo "<br>";
 
-        // var_dump($sub);
-        
-        //  This is a single-line comment
-        //  This is also a single-line comment
+                $divistion = $number1 / $number2;
+                echo "Division of Two given Numbers is: ".$divistion;
+                echo "<br>";
 
-        /*
-        This is a multiple-lines comment block
-        that spans over multiple
-        lines
-        */
+                $multiplication = $number1 * $number2;
+                echo "Multiplication of Two given Numbers is: ".$multiplication;
+                echo "<br>";
 
-        ?>
+                $reminder = $number1 % $number2;
+                echo "Reminder of Two given Numbers is: ".$reminder;
+                echo "<br>";
+
+                var_dump($name);
+            ?>
         </div>
 
     </body>
